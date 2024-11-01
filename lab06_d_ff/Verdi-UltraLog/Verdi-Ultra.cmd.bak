@@ -1,0 +1,18 @@
+verdiSetActWin -dock widgetDock_<Message>
+debImport "-sv" "-f" "run.f"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "tb_d_ff.u_d_ff" -win $_nTrace1
+srcSetScope "tb_d_ff.u_d_ff" -delim "." -win $_nTrace1
+srcHBSelect "tb_d_ff.u_d_ff" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+schCreateWindow -delim "." -win $_nSchema1 -scope "tb_d_ff.u_d_ff"
+verdiSetActWin -win $_nSchema_2
+wvCreateWindow
+verdiSetActWin -win $_nWave3
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvOpenFile -win $_nWave3 \
+           {/home2/s1_student7/2024_tutoring/lab01_week06_report/wave.fsdb}
+wvGetSignalOpen -win $_nWave3
+wvGetSignalSetScope -win $_nWave3 "/tb_hw_assign"
+wvGetSignalSetScope -win $_nWave3 "/tb_hw_assign/u_hw_assign"
+wvGetSignalScopeHistory -win $_nWave3 -backward
