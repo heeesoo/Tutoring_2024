@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/verilog_2023/gray_counter/sim
+vadder_16bit
+!s110 1707972097
+!i10b 1
+!s100 MV[be:=H:PmIZSW>C4@KK0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2e?2AFEQhV;EfVn_2VnF02
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+dC:/winter_verilog_2024/adder_16bit/sim
+w1707897722
+8../../adder_16bit/src/rtl/adder_16bit.v
+F../../adder_16bit/src/rtl/adder_16bit.v
+!i122 40
+Z3 L0 1 34
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1707972097.000000
+!s107 ../../adder_16bit/testbench/tb_adder.v|../../adder_16bit/src/rtl/adder_16bit.v|
+Z5 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z6 tCvgOpt 0
+vadder_2bit
+Z7 !s110 1727338817
+!i10b 1
+!s100 [YP^Z@<ffF;UPzFCTkVm13
+R1
+I7cn7<m^5_hJ`2mSUj@cl^1
+R2
+Z8 dC:/202021295_smu/2024_tutoring/lab01_gate_level_adder_4bit/sim
+w1707897085
+8../../lab01_gate_level_adder_4bit/src/rtl/adder_2bit.v
+F../../lab01_gate_level_adder_4bit/src/rtl/adder_2bit.v
+!i122 44
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1727338817.000000
+!s107 ../../lab01_gate_level_adder_4bit/testbench/tb_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/half_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/full_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/adder_4bit.v|../../lab01_gate_level_adder_4bit/src/rtl/adder_2bit.v|
+R5
+!i113 1
+R6
+vadder_4bit
+R7
+!i10b 1
+!s100 ^;Xbi@TzZLZ6ib4B@WlRN1
+R1
+IeH?HhHk]i9>nk0@@z]d870
+R2
+R8
+w1714541717
+8../../lab01_gate_level_adder_4bit/src/rtl/adder_4bit.v
+F../../lab01_gate_level_adder_4bit/src/rtl/adder_4bit.v
+!i122 44
+R3
+R4
+r1
+!s85 0
+31
+R9
+Z10 !s107 ../../lab01_gate_level_adder_4bit/testbench/tb_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/half_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/full_adder.v|../../lab01_gate_level_adder_4bit/src/rtl/adder_4bit.v|../../lab01_gate_level_adder_4bit/src/rtl/adder_2bit.v|
+R5
+!i113 1
+R6
+vadder_8bit
+!s110 1707897678
+!i10b 1
+!s100 V]zL?E4@2Ga]>[7`2Beon1
+R1
+IlVC[b`N]1WbRlNDgG4>`z0
+R2
+dC:/winter_verilog_2024/adder/sim
+w1707897675
+8../../adder/src/rtl/adder_16bit.v
+F../../adder/src/rtl/adder_16bit.v
+!i122 39
+L0 38 34
+R4
+r1
+!s85 0
+31
+!s108 1707897678.000000
+!s107 ../../adder/testbench/tb_adder.v|../../adder/src/rtl/adder_16bit.v|
+R5
+!i113 1
+R6
+vfull_adder
+R7
+!i10b 1
+!s100 BnJ0CKl;Nf0E@:dQQ5WNN2
+R1
+I:=lk:b[BH>TPWfkkPJ@Nj2
+R2
+R8
+w1711864990
+8../../lab01_gate_level_adder_4bit/src/rtl/full_adder.v
+F../../lab01_gate_level_adder_4bit/src/rtl/full_adder.v
+!i122 44
+L0 1 37
+R4
+r1
+!s85 0
+31
+R9
+R10
+R5
+!i113 1
+R6
+vgray_counter
+Z11 !s110 1690188719
+!i10b 1
+!s100 ^FA[^lONkMOL7m?PeS73d3
+R1
+IJB;QPHSkV>S=eeF_zRN2o3
+R2
+R0
+w1689831652
+8../../gray_counter/src/rtl/gray.v
+F../../gray_counter/src/rtl/gray.v
+!i122 22
+L0 1 21
+R4
+r1
+!s85 0
+31
+Z12 !s108 1690188719.000000
+Z13 !s107 ../../gray_counter/testbench/gray_testbench.v|../../gray_counter/src/rtl/gray.v|
+R5
+!i113 1
+R6
+vhalf_adder
+R7
+!i10b 1
+!s100 FV?<inGbV@EZK2K2Am>Am0
+R1
+I>F:QA?D]2LP;eR]NLBD]F1
+R2
+R8
+w1711899506
+8../../lab01_gate_level_adder_4bit/src/rtl/half_adder.v
+F../../lab01_gate_level_adder_4bit/src/rtl/half_adder.v
+!i122 44
+L0 1 17
+R4
+r1
+!s85 0
+31
+R9
+R10
+R5
+!i113 1
+R6
+vtb_adder
+R7
+!i10b 1
+!s100 Hm2d`z4P1Ylf@TQmkH4ZM2
+R1
+I^1kaKPT7e[<3OA@2mEkJY0
+R2
+R8
+w1727338812
+8../../lab01_gate_level_adder_4bit/testbench/tb_adder.v
+F../../lab01_gate_level_adder_4bit/testbench/tb_adder.v
+!i122 44
+L0 1 44
+R4
+r1
+!s85 0
+31
+R9
+R10
+R5
+!i113 1
+R6
+vtestbench
+R11
+!i10b 1
+!s100 7Ad7K<bi_ke24IeedP40N3
+R1
+I7a?_6Je67FjmbzgS1S12f1
+R2
+R0
+w1689831651
+8../../gray_counter/testbench/gray_testbench.v
+F../../gray_counter/testbench/gray_testbench.v
+!i122 22
+L0 1 59
+R4
+r1
+!s85 0
+31
+R12
+R13
+R5
+!i113 1
+R6
