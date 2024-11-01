@@ -1,0 +1,167 @@
+debImport "-sv" "-f" "run.f"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "820" "362" "900" "700"
+verdiWindowResize -win $_Verdi_1 "820" "362" "900" "700"
+srcHBSelect "tb_hw_assign.u_hw_assign" -win $_nTrace1
+srcHBSelect "tb_hw_assign" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+schCreateWindow -delim "." -win $_nSchema1 -scope "tb_hw_assign"
+wvCreateWindow
+verdiSetActWin -win $_nWave3
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvOpenFile -win $_nWave3 \
+           {/home2/s1_student7/2024_tutoring/lab01_week06_report/wave.fsdb}
+wvGetSignalOpen -win $_nWave3
+wvGetSignalSetScope -win $_nWave3 "/tb_hw_assign"
+wvSetPosition -win $_nWave3 {("G1" 2)}
+wvSetPosition -win $_nWave3 {("G1" 2)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 1 2 )} 
+wvSetPosition -win $_nWave3 {("G1" 2)}
+wvSetPosition -win $_nWave3 {("G1" 3)}
+wvSetPosition -win $_nWave3 {("G1" 3)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 3 )} 
+wvSetPosition -win $_nWave3 {("G1" 3)}
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 4 )} 
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 4 )} 
+wvSetPosition -win $_nWave3 {("G1" 4)}
+wvGetSignalClose -win $_nWave3
+wvSetCursor -win $_nWave3 3393.668214 -snap {("G2" 0)}
+wvZoomAll -win $_nWave3
+wvSelectSignal -win $_nWave3 {( "G1" 1 )} 
+wvSelectAll -win $_nWave3
+wvSelectSignal -win $_nWave3 {( "G1" 1 2 3 4 )} 
+wvSetRadix -win $_nWave3 -format Bin
+wvSetCursor -win $_nWave3 12039.848037 -snap {("G2" 0)}
+wvSelectGroup -win $_nWave3 {G2}
+wvSelectGroup -win $_nWave3 {G2}
+wvGetSignalOpen -win $_nWave3
+wvGetSignalSetScope -win $_nWave3 "/tb_hw_assign"
+wvGetSignalSetScope -win $_nWave3 "/tb_hw_assign"
+wvSetPosition -win $_nWave3 {("G1" 7)}
+wvSetPosition -win $_nWave3 {("G1" 7)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 5 6 7 )} 
+wvSetPosition -win $_nWave3 {("G1" 7)}
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 8 )} 
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvAddSignal -win $_nWave3 -clear
+wvAddSignal -win $_nWave3 -group {"G1" \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+{/tb_hw_assign/din0\[2:0\]} \
+{/tb_hw_assign/din1\[2:0\]} \
+{/tb_hw_assign/sel\[1:0\]} \
+{/tb_hw_assign/dout\[2:0\]} \
+}
+wvAddSignal -win $_nWave3 -group {"G2" \
+}
+wvSelectSignal -win $_nWave3 {( "G1" 8 )} 
+wvSetPosition -win $_nWave3 {("G1" 8)}
+wvGetSignalClose -win $_nWave3
+wvSelectSignal -win $_nWave3 {( "G1" 8 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 6 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 7 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 6 7 )} 
+wvSelectSignal -win $_nWave3 {( "G1" 5 6 7 8 )} 
+wvSetCursor -win $_nWave3 34823.469818 -snap {("G2" 0)}
+wvSetCursor -win $_nWave3 50512.790207 -snap {("G2" 0)}
+wvSetCursor -win $_nWave3 34209.539890 -snap {("G2" 0)}
+schSelect -win $_nSchema2 -inst "u_hw_assign"
+schPushViewIn -win $_nSchema2
+verdiSetActWin -win $_nSchema_2
+schZoom {-1432} {2952} {24041} {12197} -win $_nSchema2
+schPopViewUp -win $_nSchema2
+schSelect -win $_nSchema2 -inst "u_hw_assign"
+schPushViewIn -win $_nSchema2
+schZoomOut -win $_nSchema2 -pos 8200 5178
+schZoomOut -win $_nSchema2 -pos 8200 5178
+schZoomOut -win $_nSchema2 -pos 8199 5178
+schZoomIn -win $_nSchema2 -pos 8642 2214
+schZoomOut -win $_nSchema2 -pos 11810 2767
+schSelect -win $_nSchema2 -inst "hw_assign:SigOp1:16:16:Combo"
+schPushViewIn -win $_nSchema2
+srcSetScope "tb_hw_assign.u_hw_assign" -delim "." -win $_nTrace1
+srcSelect -win $_nTrace1 -range {16 16 1 20 1 1}
+verdiSetActWin -win $_nWave3
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_2
+verdiSetActWin -win $_nSchema_2
+schSelect -win $_nSchema2 -inst "hw_assign:SigOp2:17:17:Combo"
+schPushViewIn -win $_nSchema2
+srcSelect -win $_nTrace1 -range {17 17 1 13 1 1}
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiDockWidgetSetCurTab -dock windowDock_nSchema_2
+verdiSetActWin -win $_nSchema_2
+schSelect -win $_nSchema2 -inst "hw_assign:SigOp0:15:15:Combo"
+debExit
